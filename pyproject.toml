@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "whill"
+name = "whill-SDK"
 version = "1.2.0"
 description = "WHILL Model CR SDK for Python"
 authors = ["Seiya Shimizu <seiya.shimizu@whill.inc>"]
@@ -9,8 +9,13 @@ repository = "https://github.com/WHILL/pywhill"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.10,<4.0"
 pyserial = "^3.5"
+whill = {git = "https://github.com/WHILL/pywhill.git"}
+readchar = "^4.2.1"
+opencv-python = "^4.11.0.86"
+scikit-learn = "^1.7.0"
+graphviz = "^0.21"
 
 [tool.poetry.dev-dependencies]
 pyserial = "^3.5"

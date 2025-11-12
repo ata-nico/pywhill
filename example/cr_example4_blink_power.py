@@ -11,7 +11,8 @@ def power_on_callback():
     print('WHILL wakes up')
 
 def main():
-    whill = ComWHILL(port='/dev/ttyUSB0')
+    whill = ComWHILL(port='/dev/ttyUSB0*')  # 例：実際に接続されているCOMポート名を指定
+
     whill.register_callback('power_on', power_on_callback)
     while True:
         whill.sleep(3)
