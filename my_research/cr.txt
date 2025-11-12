@@ -1,0 +1,20 @@
+##linux
+
+cr-whillでpythonを実行するには、
+python -m example.スクリプト名
+とする。
+その際のディレクトリはpywillであること。
+source /home/ata3357/.cache/pypoetry/virtualenvs/whill-sdk-HfbwytkY-py3.12/bin/activate
+これでactivateする
+
+
+##windows
+ & "C:\Users\ata3357\AppData\Local\pypoetry\Cache\virtualenvs\whill-sdk-D3KDle04-py3.12\Scripts\Activate.ps1"
+ これでactivateする
+ コードの実行
+ poetry run python my_research\dualfish_yolo.py
+
+zemi_winの有効化
+ & C:\Users\ata3357\Desktop\zemi_win\.venv\Scripts\Activate.ps1 
+ コードの実行
+ poetry run python my_research\dualfish_yolo.py

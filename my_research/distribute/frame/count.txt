@@ -1,0 +1,3 @@
+straight    : 844 枚
+turn        : 324 枚
+no          : 36 枚

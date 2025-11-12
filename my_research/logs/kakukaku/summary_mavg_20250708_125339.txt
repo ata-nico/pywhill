@@ -1,0 +1,5 @@
+Avg frame time: 0.3073s
+Max frame time: 0.7478s
+Std frame time: 0.2670s
+MSE: 0.012738
+ISE: 0.091714

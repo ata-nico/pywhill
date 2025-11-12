@@ -1,0 +1,4 @@
+--- RSS Grid Search ---
+RSS - Best thr: 1494.459, F1: 0.957
+--- Inlier Ratio Grid Search ---
+Inlier Ratio - Best thr: 0.286, F1: 0.968
